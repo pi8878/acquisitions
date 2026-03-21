@@ -28,3 +28,14 @@
 {"level":"error","message":"Error authenticating user: ReferenceError: comparePassword is not defined","service":"acquisitions-api"}
 {"level":"error","message":"Sign in error comparePassword is not defined","service":"acquisitions-api","stack":"ReferenceError: comparePassword is not defined\n    at authenticateUser (file:///C:/Users/siman/OneDrive/Desktop/PersonalProjects/DevOps/acquisitions/src/services/auth.service.js:59:29)\n    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)\n    at async signIn (file:///C:/Users/siman/OneDrive/Desktop/PersonalProjects/DevOps/acquisitions/src/controllers/auth.controller.js:59:18)"}
 {"level":"info","message":"::1 - - [20/Mar/2026:20:46:17 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 500 572 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User johndoe@example.com authenticated successfully","service":"acquisitions-api"}
+{"level":"info","message":"User signed in successfully: johndoe@example.com","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Mar/2026:20:48:24 +0000] \"POST /api/auth/sign-in HTTP/1.1\" 200 118 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"User signed out successfully","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [20/Mar/2026:20:49:48 +0000] \"POST /api/auth/sign-out HTTP/1.1\" 200 42 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"ip":"::1","level":"warn","message":"Bot request blocked","path":"/health","service":"acquisitions-api","userAgent":"PostmanRuntime/7.51.1"}
+{"level":"info","message":"::1 - - [21/Mar/2026:05:38:11 +0000] \"GET /health HTTP/1.1\" 403 68 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Mar/2026:05:39:32 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Mar/2026:05:40:45 +0000] \"GET /health HTTP/1.1\" 200 72 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Mar/2026:05:44:18 +0000] \"GET /health HTTP/1.1\" 200 75 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
+{"level":"info","message":"::1 - - [21/Mar/2026:05:45:50 +0000] \"GET /health HTTP/1.1\" 200 74 \"-\" \"PostmanRuntime/7.51.1\"","service":"acquisitions-api"}
