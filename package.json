@@ -5,7 +5,7 @@
   "type": "module",
   "main": "index.js",
   "imports": {
-    "#src/*":"./src/*",
+    "#src/*": "./src/*",
     "#config/*": "./src/config/*",
     "#models/*": "./src/models/*",
     "#routes/*": "./src/routes/*",
